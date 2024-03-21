@@ -16,11 +16,11 @@ number2 = int(input("Lütfen ikinci sayıyı giriniz: "))
 number3 = int(input("Lütfen üçüncü sayıyı giriniz: "))
 TheBiggestNumber = 0
 
- if number1 > number2:
+if number1 > number2:
      TheBiggestNumber = number1
- else:
+else:
      TheBiggestNumber = number2
- if number3 > TheBiggestNumber:
+if number3 > TheBiggestNumber:
      TheBiggestNumber = number3
 else:
     TheBiggestNumber = TheBiggestNumber
